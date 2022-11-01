@@ -1,6 +1,6 @@
 # auto_test_project 
 repository with final project for selenium automatisation course  
-[link for the course](https://stepik.org/course/575/syllabus) 
+[link to the course](https://stepik.org/course/575/syllabus) 
 # Что такое Page Object Model?
 Page Object Model или кратко Page Object — это паттерн программирования, который очень популярен в автоматизации тестирования и является одним из стандартов при автоматизации тестирования веб-продуктов. Это также один из удобных способов структурировать свой код таким образом, чтобы его было удобно поддерживать, менять и работать с ним. 
 
