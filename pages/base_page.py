@@ -9,15 +9,7 @@ from .locators import BasePageLocators
 
 
 
-class bcolors:
-    HEADER = '\033[95m'
-    OKBLUE = '\033[94m'
-    OKGREEN = '\033[92m'
-    WARNING = '\033[93m'
-    FAIL = '\033[91m'
-    ENDC = '\033[0m'
-    BOLD = '\033[1m'
-    UNDERLINE = '\033[4m'
+
 
 class BasePage():
     # Добавляем конструктор (__init__) — метод, который вызывается, когда мы создаем объект.
@@ -70,8 +62,7 @@ class BasePage():
         try:
             alert = self.browser.switch_to.alert
             alert_text = alert.text
-            #print(f"Your code: {alert_text}")
-            print(f"{bcolors.OKGREEN}Your code: {alert_text}{bcolors.ENDC}")
+            print(f"Your code: {alert_text}")
             alert.accept()
         except NoAlertPresentException:
             print("No second alert presented")
